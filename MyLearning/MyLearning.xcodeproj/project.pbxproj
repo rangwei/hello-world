@@ -11,13 +11,13 @@
 		786094FE1F245AA20019F218 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 786094FC1F245AA20019F218 /* Main.storyboard */; };
 		786095001F245AA20019F218 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 786094FF1F245AA20019F218 /* Assets.xcassets */; };
 		786095031F245AA20019F218 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 786095011F245AA20019F218 /* LaunchScreen.storyboard */; };
+		7860950C1F245DDB0019F218 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7860950B1F245DDB0019F218 /* ListTableViewController.swift */; };
 		7860950E1F245FF40019F218 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7860950D1F245FF40019F218 /* ListTableViewCell.swift */; };
 		786095101F24627C0019F218 /* Learning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7860950F1F24627C0019F218 /* Learning.swift */; };
 		786095121F2476DF0019F218 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786095111F2476DF0019F218 /* CreateViewController.swift */; };
 		786095141F248BEA0019F218 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786095131F248BEA0019F218 /* DetailTableViewController.swift */; };
+		786095161F248D380019F218 /* LearningProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786095151F248D380019F218 /* LearningProgress.swift */; };
 		786095181F2496FE0019F218 /* CreateProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786095171F2496FE0019F218 /* CreateProgressViewController.swift */; };
-		78CA22D01F28C323005A976A /* LearningProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CA22CE1F28C323005A976A /* LearningProgress.swift */; };
-		78CA22D11F28C323005A976A /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CA22CF1F28C323005A976A /* ListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,13 +27,13 @@
 		786094FF1F245AA20019F218 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		786095021F245AA20019F218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		786095041F245AA20019F218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7860950B1F245DDB0019F218 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListTableViewController.swift; path = ../ListTableViewController.swift; sourceTree = "<group>"; };
 		7860950D1F245FF40019F218 /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		7860950F1F24627C0019F218 /* Learning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Learning.swift; sourceTree = "<group>"; };
 		786095111F2476DF0019F218 /* CreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
 		786095131F248BEA0019F218 /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		786095151F248D380019F218 /* LearningProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LearningProgress.swift; path = ../LearningProgress.swift; sourceTree = "<group>"; };
 		786095171F2496FE0019F218 /* CreateProgressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateProgressViewController.swift; sourceTree = "<group>"; };
-		78CA22CE1F28C323005A976A /* LearningProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LearningProgress.swift; sourceTree = "<group>"; };
-		78CA22CF1F28C323005A976A /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,10 +66,10 @@
 		786094F71F245AA20019F218 /* MyLearning */ = {
 			isa = PBXGroup;
 			children = (
+				786095151F248D380019F218 /* LearningProgress.swift */,
 				786094FC1F245AA20019F218 /* Main.storyboard */,
 				7860950F1F24627C0019F218 /* Learning.swift */,
-				78CA22CE1F28C323005A976A /* LearningProgress.swift */,
-				78CA22CF1F28C323005A976A /* ListTableViewController.swift */,
+				7860950B1F245DDB0019F218 /* ListTableViewController.swift */,
 				7860950D1F245FF40019F218 /* ListTableViewCell.swift */,
 				786095111F2476DF0019F218 /* CreateViewController.swift */,
 				786095131F248BEA0019F218 /* DetailTableViewController.swift */,
@@ -164,10 +164,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				786095141F248BEA0019F218 /* DetailTableViewController.swift in Sources */,
-				78CA22D01F28C323005A976A /* LearningProgress.swift in Sources */,
 				786095181F2496FE0019F218 /* CreateProgressViewController.swift in Sources */,
-				78CA22D11F28C323005A976A /* ListTableViewController.swift in Sources */,
 				786095121F2476DF0019F218 /* CreateViewController.swift in Sources */,
+				7860950C1F245DDB0019F218 /* ListTableViewController.swift in Sources */,
+				786095161F248D380019F218 /* LearningProgress.swift in Sources */,
 				786095101F24627C0019F218 /* Learning.swift in Sources */,
 				786094F91F245AA20019F218 /* AppDelegate.swift in Sources */,
 				7860950E1F245FF40019F218 /* ListTableViewCell.swift in Sources */,
